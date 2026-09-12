@@ -693,6 +693,8 @@ llamafactory-cli webui
 
 ### Build Docker
 
+For **GeForce RTX 50-series (consumer Blackwell)** GPUs, use [Dockerfile.rtx-50-series](docker/docker-cuda/Dockerfile.rtx-50-series) with CUDA 12.8 and built-in FlashAttention 2. See the [RTX 50-series Docker guide](docker/docker-cuda/README.md#geforce-rtx-50-series-consumer-blackwell) for build instructions and GPU smoke tests; the default CUDA 12.4 image below does not support these GPUs.
+
 For CUDA users:
 
 ```bash
